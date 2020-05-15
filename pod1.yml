@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: new-pod1
-  name: new-pod1
+  name: new-pod2
   namespace: demo
 spec:
   containers:
@@ -21,7 +21,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    run: new-pod1
+    run: new-pod3
   ports:
     - port: 8088
       targetPort: 80
