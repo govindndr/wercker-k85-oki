@@ -4,8 +4,8 @@ metadata:
   creationTimestamp: null
   labels:
     run: new-pod1
-  name: new-podi1-lab01
-  namespace: demo-lab01
+  name: new-podi1-lab17
+  namespace: demo-lab17
 spec:
   containers:
   - image: nginx
@@ -16,8 +16,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: rest-simpleapp-svc-lab01
-  namespace: demo-lab01
+  name: rest-simpleapp-svc-lab17
+  namespace: demo-lab17
 spec:
   type: LoadBalancer
   selector:
